@@ -1,0 +1,5 @@
+.imagem-arredondada {
+    border-radius: 50%; /* Arredonda a imagem para um formato circular */
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}

@@ -1,0 +1,36 @@
+img {
+    border-radius: 15px; /* Ajuste o valor conforme desejado */
+}
+
+img:first-of-type {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+.pentagono {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz a imagem ser tratada como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Preenche a altura da viewport */
+    margin: 0;
+}
+
+.container {
+    background-color: #f9f9f9; /* Cor de fundo do retângulo */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efeito de profundidade */
+    max-width: 600px; /* Largura máxima do retângulo */
+    width: 100%; /* Largura adaptável */
+}
