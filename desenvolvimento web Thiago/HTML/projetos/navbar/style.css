@@ -1,0 +1,60 @@
+/* margem */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* FONTE */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;   
+}
+main{
+    height: 92vh;
+    background-image: url("imagens/principal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center;
+    background-size: cover;
+}
+
+/* NAVBAR */
+nav {
+    gap: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    height: 8vh;
+}
+.logo{
+    /* texto em caixa alta */
+    text-transform: uppercase;
+    /* espaço entre as letras */
+    letter-spacing: 2px;
+}
+/* cor do texto */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    /* mudar quando passa o mouse */
+    opacity: 0.5;
+    font-size: 20px;
+    /* animação */
+    transform: scale(1.1);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    /* espaçamento */
+    gap: 30px;
+    letter-spacing: 2px;
+    align-items: center;
+}
+ul li {
+    display: inline-flex;
+}
+
